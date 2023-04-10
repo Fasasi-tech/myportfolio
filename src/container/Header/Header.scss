@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Federo&family=Kanit:wght@300&family=Roboto:wght@300&display=swap');
+.header_parent_div{
+    padding-top: 2rem;
+    /*padding-left: 8rem;
+    padding-right: 8rem;*/
+    font-family: 'Kanit', sans-serif;
+    .header__div{
+        color:rgb(206, 202, 202);
+        //background-color: #2563eb;
+        .p_paragraph{
+            color: orange;
+            font-size: 2rem;
+
+            @media screen and (max-width: 900px){
+               font-size: 1.5rem;
+            }
+        }
+        .download_button{
+            margin-top: 30px;
+            color:rgb(206, 202, 202);
+            background-color:orange;
+            padding: 10px;
+            border:none;
+        }
+        .headings{
+            /*margin-top: 1rem;*/
+            font-size:2.5rem;
+
+            @media screen and (max-width: 900px){
+                font-size: 1rem;
+             }
+            .next__heading{
+                font-size: 3rem;
+                margin-top: 2rem;
+                color: rgb(206, 202, 202);
+                @media screen and (max-width: 900px){
+                    font-size: 1.8rem;
+                }
+            }
+            .paragraph_heading{
+                color: orange;
+                font-size: large;
+                margin-top: 1rem;
+            }
+        }
+    }
+    @media screen and (max-width: 900px){
+        max-width: 100%;
+       height:100vh;
+       padding-top: 1.5rem;
+       padding-left: 2rem;
+       padding-right: 2rem;
+    }
+    
+    
+}
+
